@@ -1,0 +1,85 @@
+Mobius trs Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                           Mobius TRANSIENT SOLVER 
+
+                          TRANSIENT SOLVER RESULTS
+******************************************************************************
+
+Started: Mon Sep 04 11:28:45 2023
+
+Project name: System Repair
+Study name: RS
+State space name: SSG
+Experiment name: Experiment_1
+
+Global variable settings for this experiment:
+	lambda = 0.1
+	mu = 0.1
+
+Verbosity: 0
+Accuracy: 1.000000e-009
+Time points: 32.000000 280.000000 1200.000000 2480.000000 5240.000000 10520.000000
+Computation Time (seconds): 0.016000
+User Time (seconds): 0.016000
+System Time (seconds): 0.000000
+Rate of Poisson process: 0.425000
+Number of states in process: 24
+Number of states with reward: 24
+Number of time points: 6
+
+      Time Point       Left Trunc.      # Iterations          Error     
+   ---------------   ---------------   ---------------   ---------------
+         32.000000                 0                52     1.000000e-009
+        280.000000                41               229     1.000000e-009
+       1200.000000               350               736     1.000000e-009
+       2480.000000               825              1377     1.000000e-009
+       5240.000000              1895              2696     1.000000e-009
+      10520.000000              4001              5135     1.000000e-009
+
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  32.000000
+Mean                 :  1.967125e-001
+Variance             :  1.580167e-001
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.32.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.32.000.cdf.splot
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  280.000000
+Mean                 :  1.516513e-009
+Variance             :  1.516513e-009
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.280.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.280.000.cdf.splot
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  1200.000000
+Mean                 :  1.638469e-039
+Variance             :  1.638469e-039
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.1200.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.1200.000.cdf.splot
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  2480.000000
+Mean                 :  3.098932e-081
+Variance             :  3.098932e-081
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.2480.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.2480.000.cdf.splot
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  5240.000000
+Mean                 :  3.336368e-172
+Variance             :  3.336368e-172
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.5240.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.5240.000.cdf.splot
+******************************************************************************
+Performance variable :  Relaibility
+Time                 :  10520.000000
+Mean                 :  0.000000e+000
+Variance             :  0.000000e+000
+Plot files    (pdf)  :  Experiment_1.trs.Relaibility.10520.000.pdf.splot
+              (cdf)  :  Experiment_1.trs.Relaibility.10520.000.cdf.splot
+******************************************************************************
+Finished: Mon Sep 04 11:28:45 2023
+

@@ -1,0 +1,36 @@
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,32.000000,32.000000,Results,0.922702,0.071323,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.077298,0.077298
+Dist,1.000000,0.922702,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,280.000000,280.000000,Results,0.263073,0.193866,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.736927,0.736927
+Dist,1.000000,0.263073,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,1200.000000,1200.000000,Results,0.000247,0.000247,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.999753,0.999753
+Dist,1.000000,0.000247,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,2480.000000,2480.000000,Results,0.000000,0.000000,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,1.000000,1.000000
+Dist,1.000000,0.000000,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,5240.000000,5240.000000,Results,0.000000,0.000000,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,1.000000,1.000000
+Dist,1.000000,0.000000,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,Relaibility,10520.000000,10520.000000,Results,0.000000,0.000000,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,1.000000,1.000000
+Dist,1.000000,0.000000,1.000000
+

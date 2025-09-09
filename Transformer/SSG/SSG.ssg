@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.Solvers.StateSpaceGenerator.StateSpaceGeneratorInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.BaseClasses.BaseInterfaceClass">
+		<int id="ClassVersion">3</int>
+		<string id="ModelName">SSG</string>
+		<class id="Mobius.Solvers.StateSpaceGenerator.StateSpaceGeneratorInfoClass">
+			<int id="ClassVersion">4</int>
+			<class id="Mobius.Solvers.StateSpaceGenerator.Common.BaseStataSpaceGeneratorInfo">
+				<int id="ClassVersion">1</int>
+				<class id="Mobius.Solvers.Common.BaseSolverInfo">
+					<int id="ClassVersion">1</int>
+					<class id="Mobius.BaseClasses.BaseInfoClass">
+						<int id="ClassVersion">2</int>
+					</class>
+					<string id="PlotTemplate"></string>
+				</class>
+				<string id="StudyName">RS</string>
+				<string id="Runname">Results</string>
+				<string id="ArchiveFile"></string>
+				<int id="VerbosityLevel">0</int>
+				<boolean id="PlaceCommentsState">false</boolean>
+				<null id="CommentsString"></null>
+				<byte id="BuildType">0</byte>
+				<boolean id="RunInBackgroundState">false</boolean>
+				<int id="NumExps">16</int>
+				<boolean id="BuildOnlyState">false</boolean>
+				<vector id="ExpNames">
+					<string id="0">Experiment_1</string>
+					<string id="1">Experiment_2</string>
+					<string id="2">Experiment_3</string>
+					<string id="3">Experiment_4</string>
+					<string id="4">Experiment_5</string>
+					<string id="5">Experiment_6</string>
+					<string id="6">Experiment_7</string>
+					<string id="7">Experiment_8</string>
+					<string id="8">Experiment_9</string>
+					<string id="9">Experiment_10</string>
+					<string id="10">Experiment_11</string>
+					<string id="11">Experiment_12</string>
+					<string id="12">Experiment_13</string>
+					<string id="13">Experiment_14</string>
+					<string id="14">Experiment_15</string>
+					<string id="15">Experiment_16</string>
+				</vector>
+			</class>
+			<double id="HashValue">0.5</double>
+			<int id="FileFormatType">0</int>
+			<boolean id="FlagAbsorbingState">false</boolean>
+		</class>
+		<class id="Mobius.BaseClasses.BaseEditorClass">
+			<int id="ClassVersion">3</int>
+			<boolean id="HasPanel">false</boolean>
+			<vector id="LocalGlobalNamesList">
+			</vector>
+			<vector id="LocalGlobalTypesList">
+			</vector>
+			<boolean id="DisplayToolTips">true</boolean>
+		</class>
+		<boolean id="Valid">true</boolean>
+	</class>
+</class>

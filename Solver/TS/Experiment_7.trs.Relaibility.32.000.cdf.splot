@@ -1,0 +1,49 @@
+;Relaibility  pdf
+;at time 32
+New Graph
+Size 5 by 5
+
+Graph Font HELVETICA15
+
+Graph Title Probability Distribution Function (PDF)
+New Text 0.050000, 1.800000
+Variable name: Relaibility
+Time: 32.000000
+Mean: 0.992032
+Variance: 0.007905
+
+Text Font HELVETICA11
+
+New Text 0.050000, 1.650000
+Project name: System Repair
+Study name: RS
+Experiment name: Experiment_7
+
+Text Font HELVETICA11
+
+New Text 0.050000, 1.500000
+
+Text Font HELVETICA11
+
+New Curve
+curve symbol diamond size 3
+curve type solid
+curve gray 0.8
+curve interpolation yhistogram
+
+New Points
+0, 0.992031907097842
+1, 0
+
+X Label Relaibility - x
+X Font Helvetica12BI
+X Maximum 1.04
+X Minimum 0
+X Interval 1
+Y Label Probability - P(X = x)
+Y Font Helvetica12BI
+Y Maximum 1.05
+Y Minimum 0.00
+Y Interval 0.1
+Y numberstyle floating 2
+

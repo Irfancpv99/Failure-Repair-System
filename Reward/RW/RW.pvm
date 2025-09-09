@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.RewardModels.pvs.PVInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.BaseClasses.BaseInterfaceClass">
+		<int id="ClassVersion">3</int>
+		<string id="ModelName">RW</string>
+		<class id="Mobius.RewardModels.pvs.PVInfo">
+			<int id="ClassVersion">3</int>
+			<class id="Mobius.BaseClasses.BaseInfoClass">
+				<int id="ClassVersion">2</int>
+			</class>
+			<string id="OutputDirectory">Reward\\RW\\</string>
+			<string id="PVModelFileName">RWPVModel</string>
+			<string id="PVNodeFileName">RWPVNodes</string>
+			<string id="PVArchiveName">RWPV</string>
+			<vector id="IncludePath">
+				<string id="0">Atomic\\Repair\\RepairSAN.h</string>
+			</vector>
+			<vector id="HeaderFileList">
+				<string id="0">Reward\\RW\\RWPVNodes.h</string>
+				<string id="1">Reward\\RW\\RWPVModel.h</string>
+			</vector>
+			<vector id="CodeFileList">
+				<string id="0">Reward\\RW\\RWPVNodes.cpp</string>
+				<string id="1">Reward\\RW\\RWPVModel.cpp</string>
+			</vector>
+			<int id="NumVars">2</int>
+			<class id="Mobius.RewardModels.pvs.VariableInfo">
+				<int id="ClassVersion">7</int>
+				<string id="Name">Availability</string>
+				<vector id="AffectingModelList">
+					<string id="0">Repair</string>
+				</vector>
+				<vector id="AffectingActionsList">
+				</vector>
+				<vector id="ImpulseFunctionsList">
+				</vector>
+				<string id="RewardFunction">if(Repair-&gt;SystemActive-&gt; Mark()&gt;0) return 1;</string>
+				<int id="Type">3</int>
+				<int id="TimeSeriesType">1</int>
+				<double id="TimeSeriesFirst">0.0</double>
+				<double id="TimeSeriesLast">0.0</double>
+				<double id="TimeSeriesStep">0.0</double>
+				<double id="TimeSeriesInterval">0.0</double>
+				<int id="NumTimePoints">1</int>
+				<vector id="StartTimes">
+					<string id="0">0.0</string>
+				</vector>
+				<vector id="StopTimes">
+					<string id="0">0.0</string>
+				</vector>
+				<double id="InitialTransient">0.0</double>
+				<double id="BatchSize">1.0</double>
+				<null id="InitialTransientVar"></null>
+				<null id="BatchSizeVar"></null>
+				<boolean id="EstimateMean">true</boolean>
+				<boolean id="EstimateVariance">true</boolean>
+				<boolean id="EstimateInterval">true</boolean>
+				<boolean id="IncludeLowerBoundOnIntervalEstimate">true</boolean>
+				<boolean id="IncludeUpperBoundOnIntervalEstimate">true</boolean>
+				<double id="LowerBoundOnIntervalEstimate">0.0</double>
+				<double id="UpperBoundOnIntervalEstimate">1.0</double>
+				<boolean id="EstimateDistribution">false</boolean>
+				<boolean id="EstimateOutOfRangeProbabilities">true</boolean>
+				<double id="LowerBoundOnDistributionEstimate">0.0</double>
+				<double id="UpperBoundOnDistributionEstimate">1.0</double>
+				<double id="StepSizeOnDistributionEstimate">0.1</double>
+				<int id="ConfidenceLevel">2</int>
+				<double id="ConfidenceInterval">0.1</double>
+				<boolean id="ConfidenceIntervalIsRelative">true</boolean>
+				<boolean id="RewardIsOverAllAvailableModels">true</boolean>
+				<vector id="ImpulseIsOverAllAvailableModels">
+				</vector>
+			</class>
+			<class id="Mobius.RewardModels.pvs.VariableInfo">
+				<int id="ClassVersion">7</int>
+				<string id="Name">Relaibility</string>
+				<vector id="AffectingModelList">
+					<string id="0">Repair</string>
+				</vector>
+				<vector id="AffectingActionsList">
+				</vector>
+				<vector id="ImpulseFunctionsList">
+				</vector>
+				<string id="RewardFunction">if (1&gt;Repair-&gt;Failure-&gt;Mark())return 1;</string>
+				<int id="Type">0</int>
+				<int id="TimeSeriesType">1</int>
+				<double id="TimeSeriesFirst">0.0</double>
+				<double id="TimeSeriesLast">0.0</double>
+				<double id="TimeSeriesStep">0.0</double>
+				<double id="TimeSeriesInterval">0.0</double>
+				<int id="NumTimePoints">6</int>
+				<vector id="StartTimes">
+					<string id="0">32</string>
+					<string id="1">280</string>
+					<string id="2">1200</string>
+					<string id="3">2480</string>
+					<string id="4">5240</string>
+					<string id="5">10520</string>
+				</vector>
+				<vector id="StopTimes">
+					<string id="0">32</string>
+					<string id="1">280</string>
+					<string id="2">1200</string>
+					<string id="3">2480</string>
+					<string id="4">5240</string>
+					<string id="5">10520</string>
+				</vector>
+				<double id="InitialTransient">0.0</double>
+				<double id="BatchSize">1.0</double>
+				<null id="InitialTransientVar"></null>
+				<null id="BatchSizeVar"></null>
+				<boolean id="EstimateMean">true</boolean>
+				<boolean id="EstimateVariance">true</boolean>
+				<boolean id="EstimateInterval">true</boolean>
+				<boolean id="IncludeLowerBoundOnIntervalEstimate">true</boolean>
+				<boolean id="IncludeUpperBoundOnIntervalEstimate">true</boolean>
+				<double id="LowerBoundOnIntervalEstimate">0.0</double>
+				<double id="UpperBoundOnIntervalEstimate">1.0</double>
+				<boolean id="EstimateDistribution">false</boolean>
+				<boolean id="EstimateOutOfRangeProbabilities">true</boolean>
+				<double id="LowerBoundOnDistributionEstimate">0.0</double>
+				<double id="UpperBoundOnDistributionEstimate">1.0</double>
+				<double id="StepSizeOnDistributionEstimate">0.1</double>
+				<int id="ConfidenceLevel">2</int>
+				<double id="ConfidenceInterval">0.1</double>
+				<boolean id="ConfidenceIntervalIsRelative">true</boolean>
+				<boolean id="RewardIsOverAllAvailableModels">true</boolean>
+				<vector id="ImpulseIsOverAllAvailableModels">
+				</vector>
+			</class>
+			<string id="TopModelName">Repair</string>
+			<string id="ModelName">Repair</string>
+		</class>
+		<class id="PVEditor">
+			<int id="ClassVersion">2</int>
+			<string id="TheInterfaceName">Repair</string>
+			<boolean id="SkipAcceptPopup">true</boolean>
+			<class id="Mobius.BaseClasses.BaseEditorClass">
+				<int id="ClassVersion">3</int>
+				<boolean id="HasPanel">false</boolean>
+				<vector id="LocalGlobalNamesList">
+				</vector>
+				<vector id="LocalGlobalTypesList">
+				</vector>
+				<boolean id="DisplayToolTips">true</boolean>
+			</class>
+		</class>
+		<boolean id="Valid">true</boolean>
+	</class>
+</class>

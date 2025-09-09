@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<models:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:models="http://www.mobius.illinois.edu/projects" name="System Repair" author="irfan" creationDate="2023-06-19T12:13:29.909+0200" lastSavedVersion="2.5.10.201907161116">
+  <atomic key="Repair">
+    <value name="Repair" type="SAN Model"/>
+  </atomic>
+  <reward key="RW">
+    <value name="RW" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <study key="RS">
+    <value name="RS" category="Study" type="Range Study"/>
+  </study>
+  <transformer key="SSG">
+    <value name="SSG" category="Transformer" type="State Space Generator"/>
+  </transformer>
+  <solver key="TS">
+    <value name="TS" category="Solver" type="Transient Solver"/>
+  </solver>
+</models:Project>

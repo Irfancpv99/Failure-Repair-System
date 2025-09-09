@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.AtomicModels.San.SanInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.BaseClasses.BaseInterfaceClass">
+		<int id="ClassVersion">3</int>
+		<string id="ModelName">Repair</string>
+		<class id="Mobius.AtomicModels.San.SanInfoClass">
+			<int id="ClassVersion">5</int>
+			<class id="Mobius.BaseClasses.BaseInfoClass">
+				<int id="ClassVersion">2</int>
+			</class>
+			<class id="Mobius.AtomicModels.San.SanTypeManager">
+				<int id="ClassVersion">1</int>
+				<int id="typeListModelSize">0</int>
+			</class>
+			<string id="CustomInitialization"></string>
+		</class>
+		<class id="Mobius.AtomicModels.San.SanEditor">
+			<int id="ClassVersion">3</int>
+			<class id="Mobius.BaseClasses.BaseEditorClass">
+				<int id="ClassVersion">3</int>
+				<boolean id="HasPanel">true</boolean>
+				<class id="Mobius.BaseClasses.BasePanelClass">
+					<int id="ClassVersion">2</int>
+					<point id="Size of Panel">
+						<int id="x">1897</int>
+						<int id="y">845</int>
+					</point>
+					<double id="ZoomFactor">1.0</double>
+					<boolean id="ShowGridEnabled">true</boolean>
+					<int id="ShowGridStep">10</int>
+					<boolean id="SnapGridEnabled">true</boolean>
+					<int id="SnapGridStep">10</int>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">PlaceA</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">175</int>
+								<int id="y">255</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">1</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">PlaceB</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">175</int>
+								<int id="y">355</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">2</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">PlaceC</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">175</int>
+								<int id="y">495</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">3</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">FailedA</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">425</int>
+								<int id="y">255</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">FailedB</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">425</int>
+								<int id="y">355</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">FailedC</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">435</int>
+								<int id="y">495</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Repair</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">855</int>
+								<int id="y">345</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">SystemFailure</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">625</int>
+								<int id="y">345</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">FailedBC</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">425</int>
+								<int id="y">435</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Failure</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">735</int>
+								<int id="y">275</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">0</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.PlacePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">SystemActive</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">65</int>
+								<int id="y">305</int>
+							</point>
+						</class>
+						<boolean id="ReadOnly">false</boolean>
+						<boolean id="ConstantMarking">true</boolean>
+						<int id="InitialState">1</int>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Failed_BC</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">535</int>
+								<int id="y">375</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">(FailedBC -&gt; Mark() == 5)</string>
+						<string id="Function">;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Repair_A</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">415</int>
+								<int id="y">105</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">(FailedA -&gt; Mark() == 1)</string>
+						<string id="Function">FailedA-&gt; Mark()-- &amp;&amp; PlaceA -&gt; Mark()==1;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Repair_B</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">235</int>
+								<int id="y">595</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">
+							(FailedB -&gt; Mark() == 1) &amp;&amp; (PlaceA -&gt; Mark()=
+							= 1)
+						</string>
+						<string id="Function">FailedB-&gt; Mark()-- &amp;&amp; PlaceB -&gt; Mark()==2;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Repair_C</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">385</int>
+								<int id="y">535</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">
+							(FailedC -&gt; Mark() == 1) &amp;&amp; (PlaceA -&gt; Mark()=
+							= 1) &amp;&amp; (PlaceB -&gt; Mark()== 2)
+						</string>
+						<string id="Function">FailedC-&gt; Mark()-- &amp;&amp; PlaceC -&gt; Mark()==3;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Fail_A</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">285</int>
+								<int id="y">215</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">SystemActive -&gt; Mark() == 1</string>
+						<string id="Function">;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Fail_B</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">275</int>
+								<int id="y">315</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">SystemActive -&gt; Mark() == 1</string>
+						<string id="Function">;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Fail_C</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">285</int>
+								<int id="y">455</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">SystemActive -&gt; Mark() == 1</string>
+						<string id="Function">;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InputGatePanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.BaseClasses.BaseVertexClass">
+							<int id="ClassVersion">3</int>
+							<class id="Mobius.BaseClasses.BasePanelObjectClass">
+								<int id="ClassVersion">5</int>
+								<string id="Name">Repair_System</string>
+								<boolean id="ContainsLabel">true</boolean>
+								<boolean id="IsLabelShown">true</boolean>
+							</class>
+							<point id="CenterPoint">
+								<int id="x">785</int>
+								<int id="y">295</int>
+							</point>
+						</class>
+						<boolean id="MirrorImage">false</boolean>
+						<string id="Predicate">
+							(FailedA -&gt;Mark()==1) &amp;&amp; (FailedBC-&gt; Mark()==5
+							) &amp;&amp; (Failure-&gt;Mark()==1)\t\n
+						</string>
+						<string id="Function">;</string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">FailA</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">325</int>
+										<int id="y">255</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">lambda*(PlaceA-&gt;Mark())/4.0 </string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">FailB</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">325</int>
+										<int id="y">355</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">lambda*(PlaceB-&gt;Mark())/2.0</string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">FailC</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">325</int>
+										<int id="y">495</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">lambda*(PlaceC-&gt;Mark())</string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">RepairA</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">335</int>
+										<int id="y">175</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">mu/4</string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">RepairB</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">195</int>
+										<int id="y">625</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">mu/2</string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.TimedActivityPanelObject">
+						<int id="ClassVersion">2</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">RepairC</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">365</int>
+										<int id="y">595</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+						<class id="Mobius.BaseClasses.Distributions.DistributionFunction">
+							<int id="ClassVersion">1</int>
+							<string id="Name">Exponential</string>
+							<vector id="MetaParameters">
+							</vector>
+							<vector id="Parameters">
+								<string id="0">mu</string>
+							</vector>
+						</class>
+						<string id="Activation"></string>
+						<string id="Reactivation"></string>
+					</class>
+					<class id="Mobius.AtomicModels.San.InstantaneousActivityPanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">FailedB_C</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">525</int>
+										<int id="y">435</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+					</class>
+					<class id="Mobius.AtomicModels.San.InstantaneousActivityPanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">RepairSystem</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">735</int>
+										<int id="y">345</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+					</class>
+					<class id="Mobius.AtomicModels.San.InstantaneousActivityPanelObject">
+						<int id="ClassVersion">1</int>
+						<class id="Mobius.AtomicModels.San.ActivityPanelObject">
+							<int id="ClassVersion">1</int>
+							<class id="Mobius.BaseClasses.ExtendedBaseVertexClass">
+								<int id="ClassVersion">1</int>
+								<class id="Mobius.BaseClasses.BaseVertexClass">
+									<int id="ClassVersion">3</int>
+									<class id="Mobius.BaseClasses.BasePanelObjectClass">
+										<int id="ClassVersion">5</int>
+										<string id="Name">failure</string>
+										<boolean id="ContainsLabel">true</boolean>
+										<boolean id="IsLabelShown">true</boolean>
+									</class>
+									<point id="CenterPoint">
+										<int id="x">685</int>
+										<int id="y">275</int>
+									</point>
+								</class>
+							</class>
+							<int id="NumberOfCases">1</int>
+							<vector id="CaseDistributions">
+								<string id="0"></string>
+							</vector>
+						</class>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">2</int>
+						<string id="StartVertex">RepairA</string>
+						<string id="FinishVertex">PlaceA</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">332</int>
+								<int id="y">173</int>
+							</point>
+							<point id="1">
+								<int id="x">114</int>
+								<int id="y">258</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">1</int>
+						<string id="StartVertex">RepairB</string>
+						<string id="FinishVertex">PlaceB</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">193</int>
+								<int id="y">627</int>
+							</point>
+							<point id="1">
+								<int id="x">115</int>
+								<int id="y">625</int>
+							</point>
+							<point id="2">
+								<int id="x">115</int>
+								<int id="y">465</int>
+							</point>
+							<point id="3">
+								<int id="x">115</int>
+								<int id="y">365</int>
+							</point>
+							<point id="4">
+								<int id="x">111</int>
+								<int id="y">370</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">RepairC</string>
+						<string id="FinishVertex">PlaceC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">365</int>
+								<int id="y">597</int>
+							</point>
+							<point id="1">
+								<int id="x">119</int>
+								<int id="y">521</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailA</string>
+						<string id="FinishVertex">FailedA</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">324</int>
+								<int id="y">257</int>
+							</point>
+							<point id="1">
+								<int id="x">498</int>
+								<int id="y">236</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailB</string>
+						<string id="FinishVertex">FailedB</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">325</int>
+								<int id="y">352</int>
+							</point>
+							<point id="1">
+								<int id="x">501</int>
+								<int id="y">336</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailC</string>
+						<string id="FinishVertex">FailedC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">328</int>
+								<int id="y">489</int>
+							</point>
+							<point id="1">
+								<int id="x">507</int>
+								<int id="y">430</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">RepairSystem</string>
+						<string id="FinishVertex">Repair</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">736</int>
+								<int id="y">346</int>
+							</point>
+							<point id="1">
+								<int id="x">757</int>
+								<int id="y">358</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailA</string>
+						<string id="FinishVertex">SystemFailure</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">326</int>
+								<int id="y">259</int>
+							</point>
+							<point id="1">
+								<int id="x">442</int>
+								<int id="y">221</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailedB_C</string>
+						<string id="FinishVertex">SystemFailure</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">524</int>
+								<int id="y">432</int>
+							</point>
+							<point id="1">
+								<int id="x">644</int>
+								<int id="y">276</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailB</string>
+						<string id="FinishVertex">FailedBC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">326</int>
+								<int id="y">349</int>
+							</point>
+							<point id="1">
+								<int id="x">285</int>
+								<int id="y">278</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailC</string>
+						<string id="FinishVertex">FailedBC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">328</int>
+								<int id="y">489</int>
+							</point>
+							<point id="1">
+								<int id="x">289</int>
+								<int id="y">280</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">failure</string>
+						<string id="FinishVertex">Failure</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">685</int>
+								<int id="y">276</int>
+							</point>
+							<point id="1">
+								<int id="x">740</int>
+								<int id="y">265</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">PlaceA</string>
+						<string id="FinishVertex">FailA</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">175</int>
+								<int id="y">256</int>
+							</point>
+							<point id="1">
+								<int id="x">387</int>
+								<int id="y">209</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Fail_A</string>
+						<string id="FinishVertex">FailA</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">288</int>
+								<int id="y">221</int>
+							</point>
+							<point id="1">
+								<int id="x">450</int>
+								<int id="y">247</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">PlaceB</string>
+						<string id="FinishVertex">FailB</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">170</int>
+								<int id="y">359</int>
+							</point>
+							<point id="1">
+								<int id="x">387</int>
+								<int id="y">336</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Fail_B</string>
+						<string id="FinishVertex">FailB</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">281</int>
+								<int id="y">317</int>
+							</point>
+							<point id="1">
+								<int id="x">449</int>
+								<int id="y">350</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">PlaceC</string>
+						<string id="FinishVertex">FailC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">180</int>
+								<int id="y">495</int>
+							</point>
+							<point id="1">
+								<int id="x">338</int>
+								<int id="y">499</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Fail_C</string>
+						<string id="FinishVertex">FailC</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">292</int>
+								<int id="y">455</int>
+							</point>
+							<point id="1">
+								<int id="x">449</int>
+								<int id="y">495</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Repair_A</string>
+						<string id="FinishVertex">RepairA</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">413</int>
+								<int id="y">104</int>
+							</point>
+							<point id="1">
+								<int id="x">257</int>
+								<int id="y">128</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">2</int>
+						<string id="StartVertex">Repair</string>
+						<string id="FinishVertex">RepairA</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">861</int>
+								<int id="y">347</int>
+							</point>
+							<point id="1">
+								<int id="x">765</int>
+								<int id="y">225</int>
+							</point>
+							<point id="2">
+								<int id="x">695</int>
+								<int id="y">205</int>
+							</point>
+							<point id="3">
+								<int id="x">645</int>
+								<int id="y">175</int>
+							</point>
+							<point id="4">
+								<int id="x">545</int>
+								<int id="y">145</int>
+							</point>
+							<point id="5">
+								<int id="x">356</int>
+								<int id="y">175</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Repair_B</string>
+						<string id="FinishVertex">RepairB</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">244</int>
+								<int id="y">598</int>
+							</point>
+							<point id="1">
+								<int id="x">326</int>
+								<int id="y">622</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">2</int>
+						<string id="StartVertex">Repair</string>
+						<string id="FinishVertex">RepairB</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">861</int>
+								<int id="y">352</int>
+							</point>
+							<point id="1">
+								<int id="x">725</int>
+								<int id="y">595</int>
+							</point>
+							<point id="2">
+								<int id="x">435</int>
+								<int id="y">685</int>
+							</point>
+							<point id="3">
+								<int id="x">117</int>
+								<int id="y">667</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">2</int>
+						<string id="StartVertex">Repair</string>
+						<string id="FinishVertex">RepairC</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">863</int>
+								<int id="y">349</int>
+							</point>
+							<point id="1">
+								<int id="x">715</int>
+								<int id="y">425</int>
+							</point>
+							<point id="2">
+								<int id="x">585</int>
+								<int id="y">495</int>
+							</point>
+							<point id="3">
+								<int id="x">555</int>
+								<int id="y">593</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Repair_C</string>
+						<string id="FinishVertex">RepairC</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">387</int>
+								<int id="y">534</int>
+							</point>
+							<point id="1">
+								<int id="x">336</int>
+								<int id="y">715</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Failed_BC</string>
+						<string id="FinishVertex">FailedB_C</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">539</int>
+								<int id="y">375</int>
+							</point>
+							<point id="1">
+								<int id="x">506</int>
+								<int id="y">366</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">FailedBC</string>
+						<string id="FinishVertex">FailedB_C</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">428</int>
+								<int id="y">436</int>
+							</point>
+							<point id="1">
+								<int id="x">555</int>
+								<int id="y">417</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">SystemFailure</string>
+						<string id="FinishVertex">RepairSystem</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">630</int>
+								<int id="y">344</int>
+							</point>
+							<point id="1">
+								<int id="x">646</int>
+								<int id="y">188</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">Repair_System</string>
+						<string id="FinishVertex">RepairSystem</string>
+						<boolean id="Arrows">false</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">780</int>
+								<int id="y">299</int>
+							</point>
+							<point id="1">
+								<int id="x">785</int>
+								<int id="y">339</int>
+							</point>
+						</vector>
+					</class>
+					<class id="Mobius.BaseClasses.BaseEdgeClass">
+						<int id="ClassVersion">3</int>
+						<int id="LineType">0</int>
+						<string id="StartVertex">SystemFailure</string>
+						<string id="FinishVertex">failure</string>
+						<boolean id="Arrows">true</boolean>
+						<vector id="PointList">
+							<point id="0">
+								<int id="x">625</int>
+								<int id="y">344</int>
+							</point>
+							<point id="1">
+								<int id="x">675</int>
+								<int id="y">269</int>
+							</point>
+						</vector>
+					</class>
+				</class>
+				<vector id="LocalGlobalNamesList">
+					<string id="0">lambda</string>
+					<string id="1">mu</string>
+				</vector>
+				<vector id="LocalGlobalTypesList">
+					<string id="0">double</string>
+					<string id="1">double</string>
+				</vector>
+				<boolean id="DisplayToolTips">true</boolean>
+			</class>
+		</class>
+		<boolean id="Valid">true</boolean>
+	</class>
+</class>
